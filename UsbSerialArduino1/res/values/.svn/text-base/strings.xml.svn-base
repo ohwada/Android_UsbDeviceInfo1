@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">USB CDC Sample1</string>
+
+    <string name="not_connect">Not Connect</string>
+    <string name="channel_select">Channel Select</string>
+
+    <string name="hint_baudrate">9600</string>  
+    <string name="button_baudrate">Baudrate</string>    
+    <string name="button_send">Send</string>
+            
+</resources>

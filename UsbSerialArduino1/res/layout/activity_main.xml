@@ -1,0 +1,89 @@
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+	<TextView
+		android:id="@+id/TextView_connect"
+ 		android:text="@string/msg_not_connect" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+ 
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp" >
+
+		<View
+			android:layout_width="0dp"
+			android:layout_height="10dp" 
+			android:layout_weight="1" />
+					  
+		<Button
+			android:id="@+id/Button_led"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2" />
+
+		<View
+			android:layout_width="0dp"
+			android:layout_height="10dp" 
+			android:layout_weight="1" />
+																	            
+    </LinearLayout>
+     		
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+		android:layout_margin="4dp" >
+
+		<View
+			android:layout_width="0dp"
+			android:layout_height="10dp" 
+			android:layout_weight="1" />
+					  
+		<TextView
+			android:id="@+id/TextView_switch"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2"
+			android:layout_gravity="center"			
+ 			android:gravity="center"	
+        	android:background="@drawable/border" />
+        
+		<View
+			android:layout_width="0dp"
+			android:layout_height="10dp" 
+			android:layout_weight="1" />
+																	            
+    </LinearLayout>
+
+	<SeekBar 
+     	android:id="@+id/SeekBar_pwm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+     <jp.ohwada.android.usbserialarduino1.GraphView 
+        android:id="@+id/GraphView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

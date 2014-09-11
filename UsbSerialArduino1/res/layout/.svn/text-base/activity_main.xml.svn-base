@@ -1,0 +1,64 @@
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+	<TextView
+		android:id="@+id/TextView_connect"
+ 		android:text="@string/not_connect" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+		android:layout_margin="4dp" >
+			    	
+		<EditText
+			android:id="@+id/EditText_baudrate"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:hint="@string/hint_baudrate"
+			android:inputType="number" />
+    
+        <Button
+            android:id="@+id/Button_baudrate"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+            android:text="@string/button_baudrate" />
+			            
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+		android:layout_margin="4dp" >
+			    	
+		<EditText
+			android:id="@+id/EditText_send"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:inputType="text" />
+    
+        <Button
+            android:id="@+id/Button_send"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+            android:text="@string/button_send" />
+			            
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ListView_report"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:transcriptMode="alwaysScroll" />
+		
+</LinearLayout>

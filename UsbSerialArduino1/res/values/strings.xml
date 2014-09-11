@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">USB Serial Arduino</string>
+
+    <string name="msg_not_connect">Not Connect</string>
+    <string name="msg_connected">Connected : </string>    
+    <string name="msg_attached">Attached : </string>    
+    <string name="msg_detached">Detached : </string>        
+    <string name="msg_found">Found: </string>        
+    
+    <string name="label_on">On</string>
+    <string name="label_off">Off</string>
+
+    <string name="menu_log">Show Log</string>    
+    <string name="menu_graph">Show Graph</string>   
+    		            
+</resources>
