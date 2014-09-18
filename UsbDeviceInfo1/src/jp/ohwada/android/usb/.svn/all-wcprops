@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/440/trunk/UsbCdcSample1/src/jp/ohwada/android/usb
+END
+UsbTransferManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/440/trunk/UsbCdcSample1/src/jp/ohwada/android/usb/UsbTransferManager.java
+END
+UsbConnectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/440/trunk/UsbCdcSample1/src/jp/ohwada/android/usb/UsbConnectionManager.java
+END
+UsbConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/440/trunk/UsbCdcSample1/src/jp/ohwada/android/usb/UsbConstant.java
+END
+UsbAttachManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/440/trunk/UsbCdcSample1/src/jp/ohwada/android/usb/UsbAttachManager.java
+END

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UsbSample1</string>
+
+    <string name="button_find">Find Device</string>
+    <string name="button_clear">Clear Message</string>
+
+</resources>
