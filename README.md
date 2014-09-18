@@ -12,4 +12,4 @@ Endpoint : Direction, Transfer Type<br>
 http://android.ohwada.jp/archives/4206
 
 ## Screenshot
-![screenshot](https://raw.githubusercontent.com/ohwada/Android_UsbDeviceInfo1/master/usb_serial_arduino.png)
+![screenshot](https://raw.githubusercontent.com/ohwada/Android_UsbDeviceInfo1/master/usb_device_info.png)
